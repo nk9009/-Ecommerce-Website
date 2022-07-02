@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZARA HOME | Ecommerce Website Design</title>
+    <!--Begin Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+    <!--End Google Fonts-->
+    <!--Begin Font Awesome-->
+    <script src="https://kit.fontawesome.com/0bbcad6313.js" crossorigin="anonymous"></script>
+    <!--End Font Awesome-->
+    <!--Begin Font Awesome cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css">
+    <!--End Font Awesome cdn-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+ 
+
+    <div class="header">
+
+    <div class="container">
+        <div class="navbar">
+            <div class="logo">
+                <img src="images/zarahome_logo.jpg" width="125px">
+            </div>
+            <nav>
+                <ul id="MenuItems">
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">Product</a></li>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Connect</a></li>
+                    <li><a href="">Account</a></li>
+                </ul>
+            </nav>
+            <i class="fa-solid fa-basket-shopping" width="30px" height="30px"></i>
+            <i class="fa-solid fa-bars" onclick="menutoggle()"></i>
+        </div>
+        <div class="row">
+            <div class="col-2">
+                <h1>A MODERNIST ESCAPE</h1>
+                <p>비울수록 가득해지는 세팅. <br>여기에 컬렉션의 심플한 실루엣과 순수하면서 자연스러운 소재가 주위 환경과 어우러져 잔잔하면서 자연스러운 조화를 이루어냅니다.</p>
+                <a href="" class="btn">Explore Now &#8594;</a> <!--&는 html icon code 구글링하면 나오는 Toptal Designers 사이트에서 가져온 코드-->
+            </div>
+            <div class="col-2">
+                <img src="images/main.JPG" alt="">
+            </div>
+        </div>
+    </div>
+    </div>
+
+<!------ featured categories ------>
+    <div class="categories">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <img src="images/utility_basket_39.JPG">
+                </div>
+                <div class="col-3">
+                    <img src="images/fringe_stripe_tablemat_21.JPG">
+                </div>
+                <div class="col-3">
+                    <img src="images/metal_armchair_ 599.JPG">
+                </div>
+            </div>
+        </div>
+
+    </div> 
+<!------ featured products ------>        
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/glass_vase_45.JPG">
+                <h4>Recyled Wooden Stool</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$179.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/fringe_stripe_tablemat_21.JPG">
+                <h4>Fringe Stripted Tablemat</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$21.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/metal_armchair_ 599.JPG">
+                <h4>Metal Armchair</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$599.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/utility_basket_39.JPG">
+                <h4>Utility Basket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$39.00</p>
+            </div>
+        </div>
+        <h2 class="title">Latest Products</h2>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/stripe_tablecloth_55.JPG">
+                <h4>Striped Tablecloth</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$55.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/recyle_wooden_stool_179.JPG">
+                <h4>Recyled Wooden Stool</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$179.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/glass_vase_45.JPG">
+                <h4>Glass Vase</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$45.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/utility_basket_39.JPG">
+                <h4>Utility Basket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$39.00</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-4">
+                <img src="images/stripe_tablecloth_55.JPG">
+                <h4>Striped Tablecloth</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$55.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/recyle_wooden_stool_179.JPG">
+                <h4>Recyled Wooden Stool</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$179.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/glass_vase_45.JPG">
+                <h4>Glass Vase</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+                <p>$45.00</p>
+            </div>
+            <div class="col-4">
+                <img src="images/utility_basket_39.JPG">
+                <h4>Utility Basket</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star" ></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>$39.00</p>
+            </div>
+        </div>
+    </div>
+<!--------- offer ------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-2">
+                    <img src="images/offer_img.JPG" class="offer-img">
+                </div>
+                <div class="col-2">
+                    <p>Exclusively Available on ZARA HOME</p>
+                    <h1>SIDETABLE 01</h1>
+                    <small>이 테이블은 벨기에 디자이너의 감독에 따라 스페인에서 제조되었습니다. 2가지 크기로 제공되며 작은 사이즈는 단단한 오크, 열처리된 애쉬우드와 독특한 미적 스타일과 텍스처로 돋보이며 튼튼한 느낌을 주는 단단한 피스인 캄파스페로 석재로 제조됩니다.<br></small>
+                    <a href="" class="btn">Buy Now &#8594;</a>
+                </div>
+                <div class="col-2"></div>
+            </div>
+        </div>
+    </div>
+
+<!--------- testimoinal --------->
+    <div class="testimonial">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quia dolor laudantium dolorem ex quasi doloribus recusandae, nulla totam eaque, impedit voluptas aperiam porro animi quaerat! Neque dicta amet repudiandae.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/Elon musk.jpg">
+                    <h3>Elon Musk</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quia dolor laudantium dolorem ex quasi doloribus recusandae, nulla totam eaque, impedit voluptas aperiam porro animi quaerat! Neque dicta amet repudiandae.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/Emma Stone.jpg">
+                    <h3>Emma Stone</h3>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa quia dolor laudantium dolorem ex quasi doloribus recusandae, nulla totam eaque, impedit voluptas aperiam porro animi quaerat! Neque dicta amet repudiandae.</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star" ></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/Jennifer Aniston.jpg">
+                    <h3>Jennifer Aniston</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!------------ brands ------------>
+    <div class="brands">
+        <div class="small-container">
+            <div class="row">
+                <div class="col-5">
+                    <img src="images/zara_logo.JPG">
+                </div>
+                <div class="col-5">
+                    <img src="images/h&m_logo.JPG">
+                </div>
+                <div class="col-5">
+                    <img src="images/cos_logo.JPG">
+                </div>
+                <div class="col-5">
+                    <img src="images/otherstories_logo.JPG">
+                </div>
+                <div class="col-5">
+                    <img src="images/massimodutti_logo.JPG">
+                </div>
+            </div>
+        </div>
+    </div>
+
+<!---------- footer ----------->
+    <div class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="footer-col-1">
+                    <h3>Download Our App</h3>
+                    <p>Download App for Android and ios mobile phone.</p>
+                    <div class="app-logo">
+                        <img src="images/app-logo-playstore.JPG">
+                        <img src="images/app-logo-appstore.JPG">
+                    </div>
+                </div>
+                <div class="footer-col-2">
+                    <img src="images/zarahome_logo.jpg">
+                    <p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many. </p>
+                </div>
+                <div class="footer-col-3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li>Coupons</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+                <div class="footer-col-4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>Instagram</li>
+                        <li>YouTube</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2022 - Easy Tutorials</p>
+        </div>
+    </div>
+<!-------------js for toggle menu------------->
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if(MenuItems.style.maxHeight == "0px")
+                {
+                    MenuItems.style.maxHeight = "200px";
+                }
+            else 
+                {
+                    MenuItems.style.maxHeight = "0px";
+                }
+        }
+    </script>
+</body>
+</html>
